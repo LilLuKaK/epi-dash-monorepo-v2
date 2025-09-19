@@ -2,6 +2,7 @@
     "name": "epi-dash-monorepo",
     "private": true,
     "packageManager": "pnpm@9.0.0",
+    "engines": { "node": "20.x" },
     "scripts": {
       "build": "turbo build",
       "dev": "turbo run dev --parallel",
