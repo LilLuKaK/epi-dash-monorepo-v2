@@ -1,0 +1,28 @@
+{
+    "name": "react-explorer",
+    "version": "0.2.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+      "dev": "vite --port 5173",
+      "build": "tsc -p tsconfig.json && vite build",
+      "lint": "echo 'no lint yet'",
+      "test": "echo 'no tests yet'"
+    },
+    "dependencies": {
+      "react": "^18.3.1",
+      "react-dom": "^18.3.1",
+      "react-router-dom": "^6.26.2",
+      "recharts": "^2.12.7",
+      "maplibre-gl": "^3.6.1",
+      "@epi/ui": "workspace:*",
+      "@epi/utils": "workspace:*"
+    },
+    "devDependencies": {
+      "typescript": "^5.6.2",
+      "vite": "^5.4.8",
+      "@types/react": "^18.3.5",
+      "@types/react-dom": "^18.3.0",
+      "@vitejs/plugin-react": "^4.3.1"
+    }
+  }
