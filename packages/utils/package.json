@@ -1,14 +1,17 @@
 {
-    "name": "@epi/utils",
-    "version": "0.2.0",
-    "private": true,
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "scripts": {
-      "build": "tsc -p tsconfig.json",
-      "dev": "tsc -w -p tsconfig.json",
-      "lint": "echo 'no lint configured in utils'",
-      "test": "echo 'no tests yet'"
-    },
-    "devDependencies": { "typescript": "^5.6.2" }
+  "name": "@epi/utils",
+  "version": "0.2.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w -p tsconfig.json",
+    "lint": "echo 'no lint configured in utils'",
+    "test": "echo 'no tests yet'"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/node": "^20.14.10"
   }
+}
